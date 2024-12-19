@@ -1,0 +1,87 @@
+
+
+// Name:
+// <input type="text" id="name" placeholder="Enter name" />
+// <input type="text" id="mobile" placeholder="Mobile number" maxlength="10" />
+ 
+// <input type="button" value="Submit" class="btn btn-primary" id="btnValidate" />
+ 
+// <script type="text/javascript">
+ 
+//     var valiDate = document.getElementById('btnValidate');
+
+//     valiDate.onclick = function () {
+
+//         alert('Button Click');
+
+//         let _name = document.getElementById('name').value;
+
+//         let _mobile = document.getElementById('mobile').value;
+
+//         if (_name == '') {
+
+//             alert("You should enter some value");
+
+//             return false;
+
+//         }
+
+//         let _nameLen = _name.length;
+
+//         if (_nameLen < 3) {
+
+//             alert('Name at least 3 char');
+
+//             return false;
+
+//         }
+
+//         let _mobileLen = _mobile.length;
+
+//         alert(_mobileLen);
+
+//         if (_mobileLen < 10) {
+
+//             alert('Mob nm should be 10 digit');
+
+//             return false;
+
+//         }
+
+//         else {
+
+//             validatePhoneNumber(_mobile);
+
+//             alert("Great");
+
+//         }
+ 
+//     }
+ 
+//     function validatePhoneNumber(phoneNumber) {
+
+//         // Define the regular expression pattern using RegExp object
+
+//         const pattern = new RegExp("^([0|\+[0-9]{1,5})?([7-9][0-9]{9})$");
+ 
+//         // Test the phone number against the pattern
+
+//         if (pattern.test(phoneNumber)) {
+
+//             alert("Phone number is valid");
+
+//             return true;
+
+//         } else {
+
+//             alert("Phone number is not valid");
+
+//             return false;
+
+//         }
+
+//     }
+ 
+ 
+// </script>
+ 
